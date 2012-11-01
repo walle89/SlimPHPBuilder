@@ -1,0 +1,3 @@
+<div class="content">
+    Palace content for homepage here...
+</div>
