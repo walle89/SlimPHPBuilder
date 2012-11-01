@@ -1,32 +1,58 @@
-# SlimPHPBuilder
+#SlimPHPBuilder
 
 Description on it's way.
 
-## Requierments
+Important Notes
+---------------
+#### This is alfa version! ####
 
-PHP 5.2+
-Curl or function passthru allowed (for commandline commands)
-Ziplib (four automatic create zip of build)
 
-## Install
+Requirements
+------------
 
-1. Clone/download this project.
-2. Extract files to your local web server or upload to a web host.
-3. Copy config-sample.php to config.php
-Copy or create config.php from config-sample.php
+#### Web-Server ####
+Only tested on Apache, it should work for Nginx, Lighttpd and Litespeed
 
-## How to use
+#### PHP ####
+Version 5.3.0+
 
-### Create first site
+#### PHP Extensions ####
++**curl** (for builds)
++**zlib ** (automatic create zip of a build)
 
-### Building
+#### PHP Configuration #####
+**Function passthru allowed** (if build method is set to commandline)
 
-## Documentation
+Installation
+------------
+
+**1.)** Clone or extract files to your local web server or upload to a web host.
+**2.)** Copy or create config.php from config-sample.php and configure
+**3.)** Happy coding!
+
+How to use
+----------
+
+#### Create first site ####
+
+#### Building ####
+
+Documentation
+-------------
 
 Workning on it...
 
-## Todo
+Todo
+----
++ More documentation!
++ Automatic zip build
++ Smarter changelog
 
-* More documentation!
-* Automatic zip build
-* Smarter changelog
+Support, Bugs, And Feature Requests
+-----------------------------------
+Create issues on GitHub (https://github.com/walle89/SlimPHPBuilder/issues).
+
+Contact
+-------
++ http://wallmander.net/
++ http://twitter.com/wa11e
