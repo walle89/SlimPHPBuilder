@@ -19,11 +19,11 @@ Copy or create config.php from config-sample.php
 
 ### Create first site
 
-### Buildning
+### Building
 
 ## Documentation
 
-Woring on it...
+Workning on it...
 
 ## Todo
 
