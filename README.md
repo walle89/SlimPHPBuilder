@@ -17,8 +17,8 @@ Only tested on Apache, it should work for Nginx, Lighttpd and Litespeed
 Version 5.3.0+
 
 #### PHP Extensions ####
-+**curl** (for builds)
-+**zlib ** (automatic create zip of a build)
++ **curl** (for builds)
++ **zlib ** (automatic create zip of a build)
 
 #### PHP Configuration #####
 **Function passthru allowed** (if build method is set to commandline)
@@ -27,7 +27,9 @@ Installation
 ------------
 
 **1.)** Clone or extract files to your local web server or upload to a web host.
+
 **2.)** Copy or create config.php from config-sample.php and configure
+
 **3.)** Happy coding!
 
 How to use
@@ -44,9 +46,12 @@ Workning on it...
 
 Todo
 ----
+
 + More documentation!
-+ Automatic zip build
++ Defualt config
 + Smarter changelog
++ Exclude folders and files
++ Automatic zip build
 
 Support, Bugs, And Feature Requests
 -----------------------------------
